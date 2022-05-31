@@ -1,0 +1,215 @@
+/* Custom Fonts  */
+@font-face {
+    font-family: "kalpurush";
+    src: url('assets/fonts/kalpurush/kalpurush.ttf');
+}
+
+
+/* General CSS */
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    font-family: "kalpurush";
+}
+
+
+
+/* Header Top CSS  */
+.header-top{
+    background-color: #9E5BBA;
+    border-bottom: 1px solid red;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding-left: 5px;
+    
+}
+
+.top-right ul li {
+    border-left: 1px solid #b1afb0;
+    height: 30px;
+    padding: 0 8px;
+    display: inline-block;
+}
+.top-right ul li:first-child {border: none;}
+
+/* Header Top Number Count CSS  */
+.header-top-number-count{
+    background-color: #8CC643;
+    color:#fff;
+}
+.header-count{
+    display:flex;
+    justify-content: flex-end;
+}
+.header-top-number-count span{
+    font-size: 26px;
+    color: white;
+    /* line-height: 33px; */
+}
+.header-top-number-count ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.header-top-number-count ul li:last-child{
+    border: none;
+}
+.header-top-number-count ul li{
+    margin:0 5px;
+    border-right: 2px solid #fff;
+    padding: 0 5px;
+}
+.header-top-number-count ul li span {float: left;}
+
+.header-top-number-count sup{
+    font-size: 12px;
+    /* line-height: 11px; */
+    margin-top: 5px;
+    /* margin-left: 5px; */
+}
+
+.corner {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid #8cc643;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid #8cc643;
+   
+}
+
+/* Logo & Search  */
+header form {display: flex;justify-content: flex-end;}
+a.logo img {margin-top: -20px;}
+header input[type="search"] {
+    width: 100%;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+    border-radius: 2px;
+    color: #444;
+    padding: 5px;
+}
+
+header form button {background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    background: #eee -o-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    background: #eee -ms-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    background: #eee linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%);
+    border: 1px solid #aaa;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #444;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0 1px rgb(255 255 255 / 75%);
+    cursor: pointer;padding: 5px;
+}
+.a2i-social-icon img {float: left;width: 26%;border-right: 2px solid #ccc;padding-right: 10px;}
+
+.header-socal-icons {margin-left: 10px;width: 62%;float: left;}
+
+.header-socal-icons ul li {display: inline-block;}
+
+.a2i-social-icon {width: 100%;}
+
+.header-socal-icons ul {margin: 0;padding: 0;}
+
+.header-socal-icons p {margin-bottom: 0;color: #683091;}
+
+.header-socal-icons i {font-size: 18px;}
+
+/* Main Menu   */
+.bg-light{
+    background-color: #efefef !important;
+}
+.mainmenu ul a{
+    border-right: 1px solid #c8c8c8 !important;
+    color: #525252;
+    display: block;
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 5px;
+    padding: 3px 12px 0;
+}
+
+/* Scrolling News */
+
+.scroll{
+    background: #E6E7E8;
+    padding: 5px 0px 0px 0px;
+}
+
+.scroll > h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+}
+marquee {
+    padding: 5px;
+}
+
+#carouselExampleSlidesOnly img{
+    height: 250px;
+}
+
+/* Services Tabs   */
+button.active {background: #E8E8E8;}
+
+div#nav-tab button {
+    background: #9E5BBA;
+    color: #ebebeb;
+    border: 1px solid #fff;
+    padding: 9px 15px 5px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div#nav-tab .active {
+    background: #ebebeb;
+    color: #9E5BBA;
+}
+
+/* Initiatives CSS  */
+
+.initiatives h3{
+    color: #69308f;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.initiatives ul{
+    margin: 0;
+    padding: 0;
+}
+.initiatives li{
+    margin-bottom: 5px;
+    color: #2c7104;
+    border-bottom: 1px solid #73bf43;
+    padding: 2px 0px;
+}
+.initiatives li a{
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}
+
+/* Mujib Apps CSS  */
+.widgets-title{
+    padding: 5px;
+    font-size: 1.2em;
+    overflow: hidden;
+    background-color: #609513;
+    color: #fff;
+}
